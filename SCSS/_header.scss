@@ -1,0 +1,29 @@
+@use 'colors';
+@use 'fonts';
+
+
+.header__logo {
+    display: block;
+    max-width: 40vw;
+    margin: 10px auto;
+}
+
+.header__titlebox, .header__where, .header__info {
+    text-align: center;
+}
+
+.header__title {
+    margin-bottom: 0;
+}
+
+.header__undertitle {
+    margin-top: 0;
+}
+
+.header__where {
+    font-size: 18;
+}
+
+.header__where--margin {
+    margin: 0 auto;
+}

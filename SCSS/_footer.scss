@@ -1,0 +1,10 @@
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer__logo {
+    display: block;
+    max-width: 40vw;
+    align-self: center;
+}

@@ -1,0 +1,68 @@
+body {
+  font-family: "Figtree", Arial, Helvetica, sans-serif;
+}
+
+.header__title {
+  font-family: "Caudex", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.header__undertitle {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.header__where {
+  font-family: "Caudex", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.header__logo {
+  display: block;
+  max-width: 40vw;
+  margin: 10px auto;
+}
+
+.header__titlebox, .header__where, .header__info {
+  text-align: center;
+}
+
+.header__title {
+  margin-bottom: 0;
+}
+
+.header__undertitle {
+  margin-top: 0;
+}
+
+.header__where {
+  font-size: 18;
+}
+
+.header__where--margin {
+  margin: 0 auto;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer__logo {
+  display: block;
+  max-width: 40vw;
+  align-self: center;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url(/images/background.jpg);
+}/*# sourceMappingURL=style.css.map */
