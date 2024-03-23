@@ -36,10 +36,6 @@ body {
   margin-top: 0;
 }
 
-.header__where {
-  font-size: 18;
-}
-
 .header__where--margin {
   margin: 0 auto;
 }
