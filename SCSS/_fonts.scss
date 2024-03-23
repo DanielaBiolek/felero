@@ -6,6 +6,7 @@ body {
 .header__title {
     font-family: "Caudex", Arial, Helvetica, sans-serif;
     font-weight: 700;
+    font-size: 50px;
 }
 
 .header__undertitle {
@@ -15,6 +16,11 @@ body {
 
 .header__where {
     font-family: "Caudex", Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.odkaz {
+    color: black;
     font-weight: 600;
 }
