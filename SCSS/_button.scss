@@ -3,12 +3,14 @@
 .card__odkaz {
     text-decoration: none;
     color: var(--secondary);
+    font-weight: 700;
+    
 }
 
 .card__zpet {
-    background-color: var(--button);
+    background-color: var(--pozadi);
     margin-top: 20px;
-    border: 1px solid var(--ramecek);
+    border: 2px solid var(--ramecek);
     border-radius: 30px;
     padding: 2px 10px;
     box-shadow: 1px;

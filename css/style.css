@@ -8,7 +8,7 @@
 
 body {
   font-family: "Figtree", Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   color: var(--primary);
 }
@@ -31,7 +31,7 @@ body {
 }
 
 .header__info {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .odkaz {
@@ -50,6 +50,9 @@ body {
     font-size: 40px;
   }
   .header__info {
+    font-size: 26px;
+  }
+  .card__odkaz {
     font-size: 20px;
   }
 }
@@ -129,19 +132,34 @@ body {
 
 .card__img {
   display: block;
-  max-width: 80vw;
-  margin: 10px auto;
+  max-width: 70vw;
+  margin: 30px auto;
+  border-radius: 10px;
 }
 
+@media screen and (min-width: 550px) {
+  .card__img {
+    max-width: 40vw;
+    float: right;
+    margin: 70px 20px 20px;
+  }
+}
+@media screen and (min-width: 850px) {
+  .card__img {
+    max-width: 30vw;
+    margin: 70px 40px 40px;
+  }
+}
 .card__odkaz {
   text-decoration: none;
   color: var(--secondary);
+  font-weight: 700;
 }
 
 .card__zpet {
-  background-color: var(--button);
+  background-color: var(--pozadi);
   margin-top: 20px;
-  border: 1px solid var(--ramecek);
+  border: 2px solid var(--ramecek);
   border-radius: 30px;
   padding: 2px 10px;
   box-shadow: 1px;
@@ -149,7 +167,7 @@ body {
 
 .program__grid {
   display: grid;
-  grid-template-columns: 100px 1fr;
+  grid-template-columns: 120px 1fr;
   gap: 10px;
 }
 
