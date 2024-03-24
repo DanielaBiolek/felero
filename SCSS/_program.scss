@@ -1,0 +1,10 @@
+.program__grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+}
+
+.program__radek {
+    justify-items: center;
+    align-items: left;
+}

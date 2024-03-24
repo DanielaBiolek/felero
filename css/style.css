@@ -1,5 +1,16 @@
+:root {
+  --primary: #141414;
+  --secondary: #292929;
+  --pozadi: #e6e6e6;
+  --button: #cccccc;
+  --ramecek: #adadad;
+}
+
 body {
   font-family: "Figtree", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary);
 }
 
 .header__title {
@@ -19,6 +30,10 @@ body {
   font-weight: 600;
 }
 
+.header__info {
+  font-size: 20px;
+}
+
 .odkaz {
   color: black;
   font-weight: 600;
@@ -26,7 +41,7 @@ body {
 
 .header__logo {
   display: block;
-  max-width: 30vw;
+  max-width: 38vw;
   margin: 10px auto;
 }
 
@@ -67,6 +82,30 @@ body {
   margin: 10px auto;
 }
 
+.card__odkaz {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.card__zpet {
+  background-color: var(--button);
+  margin-top: 20px;
+  border: 1px solid var(--ramecek);
+  border-radius: 30px;
+  padding: 2px 10px;
+}
+
+.program__grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+}
+
+.program__radek {
+  justify-items: center;
+  align-items: left;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -76,5 +115,8 @@ html {
 }
 
 body {
-  background-image: url(/images/background.jpg);
+  background-image: url(/images/background3.jpg);
+  background-size: 100%;
+  width: 80vw;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
