@@ -35,3 +35,23 @@ body {
 }
 
 
+@media screen and (min-width: 850px) {
+
+    .header__title {
+     
+        font-size: 70px;
+    }
+    .header__undertitle {
+        font-size: 20px;
+    }
+    
+    .header__where {
+        font-size: 40px;
+    
+    }
+    
+    .header__info {
+        font-size: 20px;
+    }
+
+}
