@@ -1,10 +1,41 @@
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 30px auto;
 }
 
 .footer__logo {
     display: block;
     max-width: 40vw;
     align-self: center;
+    justify-self: center;
+}
+
+@media screen and (min-width: 550px) {
+    .footer__logo {
+        width: 30vw;
+    }
+
+}
+
+@media screen and (min-width: 850px) {
+    .footer__logo {
+        max-width: 20vw;
+       
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+
+    .footer {
+        gap: 70px;
+        margin: 50px auto;
+    }
+    
+  
+    
+    
 }

@@ -25,3 +25,32 @@
 .header__where--margin {
     margin: 0 auto;
 }
+
+
+@media screen and (min-width: 550px) {
+
+    .header__logo {
+        max-width: 25vw;
+    }
+    
+    
+}
+
+
+@media screen and (min-width: 850px) {
+
+    .header__logo {
+        max-width: 20vw;
+    }
+    
+    
+}
+
+@media screen and (min-width: 1000px) {
+
+    .header__logo {
+        max-width: 15vw;
+    }
+    
+    
+}
