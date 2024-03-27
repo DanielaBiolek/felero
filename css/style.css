@@ -4,9 +4,10 @@
   --pozadi: #e6e6e6;
   --button: #cccccc;
   --ramecek: #adadad;
-  --odkaz: #474747;
+  --odkazpuvodni: #474747;
   --darkprimary: #eef0fb;
   --darkodkaz: #ced4f3;
+  --odkaz: #006e37;
 }
 
 body {
@@ -40,7 +41,13 @@ body {
 .odkaz {
   color: var(--odkaz);
   font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
   font-size: 18.5px;
+}
+
+.odkaz:hover {
+  text-decoration: underline;
 }
 
 .card__zpet {
