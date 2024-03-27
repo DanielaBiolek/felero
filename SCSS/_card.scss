@@ -13,7 +13,15 @@
     .card__img { 
         max-width: 40vw;
         float: right;
-        margin: 70px 20px 20px;
+        margin: 80px 20px 20px;
+    }
+
+    .card__title {
+        margin-bottom: 40px;
+    }
+
+    .card__medailonek {
+        margin-top: 60px;
     }
 
 }
@@ -21,7 +29,7 @@
 @media screen and (min-width: 850px) {
     .card__img { 
         max-width: 30vw;
-        margin: 70px 40px 40px;
+        margin: 80px 40px 40px;
     }
 
 }

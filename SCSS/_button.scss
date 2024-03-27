@@ -10,10 +10,22 @@
 .card__zpet {
     background-color: var(--pozadi);
     margin-top: 20px;
-    border: 2px solid var(--ramecek);
+    border: 1px solid var(--ramecek);
     border-radius: 30px;
-    padding: 2px 10px;
-    box-shadow: 1px;
+    padding: 5px 10px;
+    box-shadow: 1px 1px 2px #adadad80;
+    transition: transform 0.08s;
+}
+
+
+.card__zpet:hover, .card__zpet:focus  {
+    box-shadow: 1.5px 1.5px 3px #adadad80;
+    transform: translate(-1px, -1px);
+}
+
+.card__zpet:active {
+    box-shadow: 1px 1px 2px #adadad80;
+    transform: translate(0, 0);
 }
 
 

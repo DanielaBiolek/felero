@@ -9,6 +9,7 @@
 @use 'kontakt';
 @use 'margin';
 
+
 html {
     box-sizing: border-box;
 }
@@ -16,14 +17,21 @@ html {
 *, ::before, ::after {
     box-sizing: inherit;
 }
+    
 
 body {
-    background-image: url(/images/background3.jpg);
+    background-image: url(/images/background.jpg);
     
     background-size: 100%;
     width: 80vw;
     margin: 0 auto;
     max-width: 1800px;
-    
+
 }
 
+@media (prefers-color-scheme: dark) {
+    body {
+        background-image: url(/images/background-dark.jpg);
+        color: white;
+    }
+}

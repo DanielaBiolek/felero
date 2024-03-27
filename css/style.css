@@ -38,7 +38,7 @@ body {
 .odkaz {
   color: var(--odkaz);
   font-weight: 600;
-  font-size: 19px;
+  font-size: 18.5px;
 }
 
 @media screen and (min-width: 850px) {
@@ -55,7 +55,7 @@ body {
     font-size: 26px;
   }
   .card__odkaz {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 .header__logo {
@@ -143,13 +143,19 @@ body {
   .card__img {
     max-width: 40vw;
     float: right;
-    margin: 70px 20px 20px;
+    margin: 80px 20px 20px;
+  }
+  .card__title {
+    margin-bottom: 40px;
+  }
+  .card__medailonek {
+    margin-top: 60px;
   }
 }
 @media screen and (min-width: 850px) {
   .card__img {
     max-width: 30vw;
-    margin: 70px 40px 40px;
+    margin: 80px 40px 40px;
   }
 }
 .card__odkaz {
@@ -161,10 +167,21 @@ body {
 .card__zpet {
   background-color: var(--pozadi);
   margin-top: 20px;
-  border: 2px solid var(--ramecek);
+  border: 1px solid var(--ramecek);
   border-radius: 30px;
-  padding: 2px 10px;
-  box-shadow: 1px;
+  padding: 5px 10px;
+  box-shadow: 1px 1px 2px rgba(173, 173, 173, 0.5019607843);
+  transition: transform 0.08s;
+}
+
+.card__zpet:hover, .card__zpet:focus {
+  box-shadow: 1.5px 1.5px 3px rgba(173, 173, 173, 0.5019607843);
+  transform: translate(-1px, -1px);
+}
+
+.card__zpet:active {
+  box-shadow: 1px 1px 2px rgba(173, 173, 173, 0.5019607843);
+  transform: translate(0, 0);
 }
 
 .program__grid {
@@ -228,9 +245,16 @@ html {
 }
 
 body {
-  background-image: url(/images/background3.jpg);
+  background-image: url(/images/background.jpg);
   background-size: 100%;
   width: 80vw;
   margin: 0 auto;
   max-width: 1800px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-image: url(/images/background-dark.jpg);
+    color: white;
+  }
 }/*# sourceMappingURL=style.css.map */
