@@ -1,12 +1,5 @@
 @use 'colors';
 
-.card__odkaz {
-    text-decoration: none;
-    color: var(--secondary);
-    font-weight: 700;
-    
-}
-
 .card__zpet {
     background-color: var(--pozadi);
     margin-top: 20px;
@@ -15,6 +8,10 @@
     padding: 5px 10px;
     box-shadow: 1px 1px 2px #adadad80;
     transition: transform 0.08s;
+    text-decoration: none;
+    color: var(--secondary);
+    font-weight: 700;
+    
 }
 
 
@@ -29,8 +26,3 @@
 }
 
 
-@media screen and (min-width: 550px) {
-
-
-    
-}

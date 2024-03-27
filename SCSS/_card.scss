@@ -8,6 +8,10 @@
     border-radius: 10px;
 }
 
+.card__img--navysku {
+    max-width: 60vw;
+}
+
 
 @media screen and (min-width: 550px) {
     .card__img { 
@@ -16,20 +20,30 @@
         margin: 80px 20px 20px;
     }
 
+    .card__img--navysku {
+        max-width: 30vw;
+    }
+
     .card__title {
         margin-bottom: 40px;
     }
 
     .card__medailonek {
         margin-top: 60px;
+        margin-bottom: 100px;
     }
 
 }
 
 @media screen and (min-width: 850px) {
     .card__img { 
-        max-width: 30vw;
+        max-width: 35vw;
         margin: 80px 40px 40px;
     }
+
+    .card__img--navysku {
+        max-width: 25vw;
+    }
+
 
 }
