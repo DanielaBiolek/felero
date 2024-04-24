@@ -41,9 +41,8 @@ body {
 .odkaz {
   color: var(--odkaz);
   font-weight: 600;
-  font-size: 18px;
   text-decoration: none;
-  font-size: 18.5px;
+  /*font-size: 18.5px;*/
 }
 
 .odkaz:hover {
@@ -109,6 +108,10 @@ body {
   }
   .header__logo {
     max-width: 165px;
+  }
+  .header__info {
+    max-width: 65vw;
+    margin: auto;
   }
 }
 .footer {
@@ -237,6 +240,10 @@ body {
   height: 2px;
   width: 1fr;
   background-color: var(--secondary);
+}
+
+.doproProgram__seznam {
+  line-height: 2;
 }
 
 .kontakt__title::after {
